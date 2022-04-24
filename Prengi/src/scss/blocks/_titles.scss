@@ -1,0 +1,17 @@
+.title {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1.2;
+    text-align: center;
+    color: #393939;
+    margin: 0 auto;
+    &_white {
+        color: #fff;
+    }
+    &_33pct {
+        width: 33%;
+    }
+    &_66pct {
+        width: 60%;
+    }
+}

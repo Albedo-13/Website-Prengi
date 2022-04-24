@@ -1,0 +1,93 @@
+.decisions {
+    min-height: 740px;
+    padding: 43px 0 86px 0;
+    &__wrapper {
+        margin-top: 37px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__arrow-down_1, &__arrow-down_2 {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        margin-top: 69px;
+        width: 250px;
+        height: 0px;
+        border: solid 1px transparent;
+        border-bottom: none;
+        &::before, &::after {
+            content: '';
+            position: absolute;
+            width: 100px;
+            height: 0px;
+            border: solid 1px #ececec;
+            border-bottom: none;
+        }
+        &::before {
+            left: 31px;
+            transform: rotate(0.085turn);
+        }
+        &::after {
+            right: 31px;
+            transform: rotate(-0.085turn);
+        }
+    }
+
+    &__arrow-down_2 {
+        margin-top: 22px;
+    }
+
+    &__title {
+        text-align: center;
+        margin-top: 60px;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 0.63;
+        color: #393939;
+        text-transform: uppercase;
+    }
+}
+
+.decisions-item {
+    position: relative;
+    height: 253px;
+    width: 358px;
+    border: solid 1px #ececec;
+    overflow: hidden;
+    &__img {
+        position: relative;
+        top: -8px;
+        width: 192px;
+        height: 192px;
+        margin: 0 auto;
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+    &__text {
+        position: relative;
+        bottom: 24px;
+        width: 250px;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.44;
+        text-align: center;
+        margin: 0 auto;
+        color: #393939;
+        &_bold {
+            font-weight: 700;
+            margin-top: 5px;
+            width: 275px;
+        }
+    }
+    &__label {
+        position: absolute;
+        display: block;
+        right: -36px;
+        bottom: -45px;
+    }
+}

@@ -1,0 +1,20 @@
+.button {
+    width: 241px;
+    height: 60px;
+    line-height: 3.9;
+    margin-top: 37px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.07);
+    background-color: $main-color;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+        background-color: $hover-color;
+        transition: 0.35s all;
+    }
+}

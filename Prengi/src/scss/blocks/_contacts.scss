@@ -1,0 +1,36 @@
+.contacts {
+    min-height: 85px;
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 19px;
+    }
+}
+
+.contacts-country {
+    display: flex;
+    flex-wrap: wrap;
+    &__flag {
+        img {
+            width: 28px;
+            height: 21px;
+        }
+    }
+    &__info {
+        margin-left: 11px;
+        font-size: 12px;
+        font-weight: 300;
+        color: #242424;
+    }
+    &__name {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    &__address {
+        line-height: 1.5;
+    }
+    &__tel {
+        line-height: 1.5;
+    }
+}
