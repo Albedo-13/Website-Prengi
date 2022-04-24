@@ -1,7 +1,6 @@
 .button {
     width: 241px;
     height: 60px;
-    line-height: 3.9;
     margin-top: 37px;
     font-size: 16px;
     font-weight: 700;
@@ -9,12 +8,16 @@
     color: #fff;
     text-transform: uppercase;
 
-    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.07);
     background-color: $main-color;
     border-radius: 5px;
+    border-color: transparent;
     cursor: pointer;
     &:hover {
         background-color: $hover-color;
         transition: 0.35s all;
+    }
+    &_center {
+        display: block;
+        margin: 0 auto;
     }
 }
